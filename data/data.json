@@ -1,0 +1,11 @@
+{
+    "credantials":{
+        "user":"standard_user",
+        "pass":"secret_sauce"
+    },
+    "productName":"Sauce Labs Backpack",
+    "firstName":"Test_first",
+    "lastName":"Test_last",
+    "zipcode":"1985",
+    "orderConfirmMessage":"Thank you for your order!"
+}
