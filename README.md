@@ -26,6 +26,7 @@ The following software are required:
 2. Navigate to folder and install npm packages using:<br>
 ```typescript
   npm install
+npx playwright install
   ```
 
 
