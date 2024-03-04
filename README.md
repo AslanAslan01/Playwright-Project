@@ -130,3 +130,4 @@ Specs are located in the [tests] folder. They are the main test scenarios. Follo
 ```
 
 ###  HTML Report view:
+![Screenshot 2024-03-04 at 11 21 29 PM](https://github.com/AslanAslan01/Playwright-Project/assets/128255111/9e5e91f0-8174-4df0-8004-068854f8e0f3)
