@@ -1,11 +1,15 @@
 {
-    "credantials":{
+    "credentials":{
         "user":"standard_user",
         "pass":"secret_sauce"
     },
     "productName":"Sauce Labs Backpack",
+    "lastProductName":"Test.allTheThings() T-Shirt (Red)",
     "firstName":"Test_first",
     "lastName":"Test_last",
     "zipcode":"1985",
-    "orderConfirmMessage":"Thank you for your order!"
+    "orderConfirmMessage":"Thank you for your order!",
+    "quantityOfItemsInCartAfterAdd": "1",
+    "quantityOfItemsInCartAfterDelete": null,
+    "titleText":"Products"
 }

@@ -8,6 +8,8 @@ class Checkout {
     finishBtn = '[data-test="finish"]';
     confirmMessage = 'h2.complete-header';
     cartItemNameLocator = `.inventory_item_name`
+    removeBtn="#remove-sauce-labs-onesie"
+    continueShoppingBtn= "#continue-shopping"
 
     constructor(page) {
         this.page = page;
@@ -34,6 +36,19 @@ return await this.page.locator(this.confirmMessage).textContent()
 
     async getCartProductName() {
         return await this.page.locator(this.cartItemNameLocator).textContent()
+    }
+
+    async checkTheNumberOfItemsInCart(){
+       const element = await this.page.$(".shopping_cart_badge")
+       const textFromElement = await this.page.evaluate(element =>element.textContent,element)
+       return textFromElement;
+    }
+
+    async removeItemFromCart(){
+        await this.page.locator(this.removeBtn).click()
+    }
+    async clickOnContinueShoppingBtn(){
+        await this.page.locator(this.continueShoppingBtn).click()
     }
 }
 

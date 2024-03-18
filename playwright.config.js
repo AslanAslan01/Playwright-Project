@@ -11,7 +11,7 @@ module.exports = defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         baseURL: "https://www.saucedemo.com/",
-        headless: !true,
+        headless: false,
         trace: 'retain-on-failure',
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
